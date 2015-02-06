@@ -4,7 +4,8 @@ Background
 ------
 
 [QIIME 1.8.0 (stable public release)](http://qiime.org/) is a bioinformatics pipeline developed to facilitate the analysis of 16S data generated from NGS platforms.
-The process of moving from actual sequencing data to meaningful PCoA plots involves a lot of manual steps and invocation of various QIIME scripts. For this pupose, we have decided to wrap all the essential steps in one platform 
+The process of moving from actual sequencing data to meaningful PCoA plots involves a lot of manual steps and invocation of various QIIME scripts. For this pupose, we have developed a standard analysis procedure and wrapped all of the essential steps in one script that can take information directly from the sequencer and perform all of the downstream analyses. This will greatly expedite the process of standard analyses and saves a lot and time energy for the biologists.
+Since the analysis is based on QIIME, we call our wrapper script MAWQ (canonically pronounced mock).
 
 
 Required Packages
@@ -21,6 +22,7 @@ The script has been tested on Ubuntu 12.04.3 LTS.
 Input files
 ------
 
+The input file for the wrapper is a single tab-delimited file, with the first column containing 
 
 1) **GenomeA_kaas.txt**
 
