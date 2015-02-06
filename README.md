@@ -4,7 +4,7 @@ Microbiome Analysis using Workflow of QIIME
 Background
 ------
 
-[QIIME 1.8.0 (stable public release)](https://github.com/qiime/qiime-deploy) is a bioinformatics pipeline developed to facilitate the analysis of 16S data generated from NGS platforms.
+[QIIME 1.8.0 (stable public release)](http://qiime.org/) is a bioinformatics pipeline developed to facilitate the analysis of 16S data generated from NGS platforms.
 The process of moving from actual sequencing data to meaningful PCoA plots involves a lot of manual steps and invocation of various QIIME scripts. For this pupose, we have decided to wrap all the essential steps in one platform 
 
 
