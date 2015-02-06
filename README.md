@@ -4,7 +4,7 @@ Background
 ------
 
 [QIIME 1.8.0 (stable public release)](http://qiime.org/) is a bioinformatics pipeline developed to facilitate the analysis of 16S data generated from NGS platforms.
-The process of moving from actual sequencing data to meaningful PCoA plots involves a lot of manual steps and invocation of various QIIME scripts. For this pupose, we have developed a standard analysis procedure and wrapped all of the essential steps in one script that can take information directly from the sequencer and perform all of the downstream analyses. This will greatly expedite the process of standard analyses and saves a lot and time energy for the biologists.
+The process of moving from actual sequencing data to meaningful PCoA plots involves a lot of manual steps and invocation of various QIIME scripts. For this pupose, we have developed a standard analysis procedure and wrapped all of the essential steps in one script that can take information directly from the sequencer and perform all of the downstream analyses. This will greatly expedite the process of standard analyses and save a lot and time energy for biologists.
 Since the analysis is based on QIIME, we call our wrapper script MAWQ (canonically pronounced mock).
 
 
