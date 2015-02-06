@@ -17,7 +17,7 @@ Required Packages
 - [BIOM 1.3.1](http://biom-format.org/)
 - [QIIME 1.8.0 (stable public release)](https://github.com/qiime/qiime-deploy)
 
-The script has been tested on Ubuntu 12.04.3 LTS.
+The script has been tested on Ubuntu 12.04.3 LTS. Currently, the pipeline is only exclusive to handling [Illumina MiSeq](http://www.illumina.com/systems/miseq.html) data.
 
 Input files
 ------
