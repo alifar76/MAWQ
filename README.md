@@ -22,12 +22,7 @@ The script has been tested on Ubuntu 12.04.3 LTS. Currently, the pipeline is onl
 Input files
 ------
 
-The input file for the wrapper is a single tab-delimited file, with the first column containing 
-
-1) **GenomeA_kaas.txt**
-
-2) **GenomeA_kaas.txt**
-
+The input file for the wrapper is a single tab-delimited file, with the first column containing the name of the output folder generated from Illumina's MiSeq platform. The second column contains the name of the QIIME-based mapping file of that corresponding output folder.
 
 How to use
 ------
@@ -36,3 +31,7 @@ There are two scripts in the src folder. They are called:
 
 - ```mawq_miseq_localhost.py```
 - ```mawq_miseq_amazon.py```
+
+The scripts can be run in the terminal simply by typing ```mawq_miseq_localhost.py``` or ```mawq_miseq_amazon.py```. The difference between localhost and amazon script is that the former can be run on an in-house server having QIIME installation whereas the latter can be invoked from an inhouse machine but the analyses will run on the Amazon EC2 instance of QIIME. Additionally, the Amazon EC2 instance key will be needed if using ```mawq_miseq_amazon.py```. 
+
+The scripts run interactively, by asking a series of questions about the parameters needed to be specified for analysis. Once all the questions are answered, the script will run and give meaningful results from raw sequencing data.
