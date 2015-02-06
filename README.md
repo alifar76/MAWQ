@@ -1,5 +1,4 @@
-# MAWQ
-Microbiome Analysis using Workflow of QIIME
+# MAWQ (Microbiome Analysis using Workflow of QIIME) v0.1.0
 
 Background
 ------
