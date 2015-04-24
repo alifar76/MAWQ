@@ -35,3 +35,8 @@ There are two scripts in the src folder. They are called:
 The scripts can be run in the terminal simply by typing ```mawq_miseq_localhost.py``` or ```mawq_miseq_amazon.py```. The difference between localhost and amazon script is that the former can be run on an in-house server having QIIME installation whereas the latter can be invoked from an inhouse machine but the analyses will run on the Amazon EC2 instance of QIIME. Additionally, the Amazon EC2 instance key will be needed if using ```mawq_miseq_amazon.py```. 
 
 The scripts run interactively, by asking a series of questions about the parameters needed to be specified for analysis. Once all the questions are answered, the script will run and give meaningful results from raw sequencing data.
+
+Screenshot
+------
+
+![mawq_screenshot](https://github.com/alifar76/MAWQ/blob/master/img/mawq_screenshot.png "")
